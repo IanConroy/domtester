@@ -9,4 +9,4 @@ container.appendChild(content);
 const redPara = document.createElement("p");
 redPara.textContent = "Hey I'm red!";
 document.body.appendChild(redPara);
-document.getElementsByName(redPara).style.color = "red";
+redPara.style.color = "red";
